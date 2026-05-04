@@ -13,9 +13,9 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-pink bg-pink">
             <div class="container">
-                <a class="navbar-brand" href="#">Celeste Makes Music</a>
+                <a style=font-family:courier new class="navbar-brand" href="#"><i>Celeste Makes Music</i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -39,12 +39,61 @@
             <div class="text-center mt-5">
                 <h1>Pixcele</h1>
                 <p class="lead">Composer</p>
-                <p>Bootstrap v5.2.3</p>
+                
             </div>
         </div>
+    </body>
+<head>
+<style>
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.gallery-item {
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+div.gallery-item:hover {
+  border: 3px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family:'Courier New';
+  font-style: italic;
+}
+</style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <a target="_blank" href="https://on.soundcloud.com/XiHmw0aBWxgisRtltr">
+            <img src="assets/LostInSpaceCover.png" border="1px solid" alt="Pixcele">
+            </a>
+            <div class="desc">Lost In Space</div>
+        </div>
+        <div class="gallery-item">
+            <a target="_blank" href="https://on.soundcloud.com/l6zdCtk3jzmGldWd9w">
+            <img src="assets/ORIONSquareCover.png"   border="1px solid" alt="Pixcele">
+            </a>
+            <div class="desc">ORION</div>
+        </div>
+    </div>
+            
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-    </body>
+</body>
 </html>
